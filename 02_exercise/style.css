@@ -27,6 +27,10 @@ main{
   display: flex;
   height: 100%;
   /* justify-content: space-between; */
+
+}
+h2{
+  color: blue;
 }
 
 main .left-sidebar{
@@ -71,10 +75,35 @@ main .right-sidebar{
   border-left: .2rem solid slategray;
   margin-left: 15rem;
 }
+.left-sidebar ul {
+  list-style-type: none;
+}
 
+.right-sidebar ul{
+  list-style-type: none;
+}
+
+.right-sidebar ul .list-1{
+  border: .1rem solid gray;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.right-sidebar ul .list-2{
+  border: .1rem solid gray;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+
+}
 footer{
   height: 100px;
   border: .2rem solid gray;
   display: flex;
+  justify-content: flex-end;
   
+}
+footer ul {
+  list-style-type: none;
 }
