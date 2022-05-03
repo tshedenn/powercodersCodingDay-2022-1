@@ -146,8 +146,8 @@ picture {
     main{
       display: grid;
       grid-template-areas: 
-      'fig-1 aside aside aside ' 
-      '. title title .'
+      'fig-1 aside aside aside' 
+      '. . title .'
       'banner banner banner banner'
       '. main main main'
     }
@@ -159,5 +159,13 @@ picture {
     h1{
       font-size: 40px;
       text-align: center;
+    }
+    section p{
+      font-size: 14px;
+    }
+    aside p{
+      font-size: 8px;
+      margin-left: 3rem;
+
     }
   }
