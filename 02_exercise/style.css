@@ -51,5 +51,30 @@ main .left-sidebar{
 }
 
 main section{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+section article{
+  width: 600px;
+  max-width: auto;
+  min-width: 400px;
+  border: .1rem gray solid;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .8rem;
+  padding-right: 10rem;
+  
+}
+
+main .right-sidebar{
+  border-left: .2rem solid slategray;
+  margin-left: 15rem;
+}
+
+footer{
+  height: 100px;
+  border: .2rem solid gray;
+  display: flex;
   
 }
