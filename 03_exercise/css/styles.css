@@ -109,6 +109,7 @@ picture {
   .fig-2 {
     display: block;
   }
+}
 
   @supports (display: grid) {
       /* Layout Elements */
@@ -137,7 +138,26 @@ picture {
 
     .fig-2 {
       margin-bottom: .75rem;
-
       grid-area: fig-2;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    main{
+      display: grid;
+      grid-template-areas: 
+      'fig-1 aside aside aside ' 
+      '. title title .'
+      'banner banner banner banner'
+      '. main main main'
+    }
+    .fig-1 img{
+      width: 100px;
+      height: auto;
+
+    }
+    h1{
+      font-size: 40px;
+      text-align: center;
     }
   }
