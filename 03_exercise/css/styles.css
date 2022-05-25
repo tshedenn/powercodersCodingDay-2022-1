@@ -27,7 +27,7 @@ p {
 
 /* Layout Elements */
 
-html, body {
+html,body {
   margin: 0;
   padding: 0;
 }
@@ -45,7 +45,8 @@ main {
 }
 
 img {
-  max-width: none;
+  max-width:350px;
+  text-align: center;
 }
 
 .fig-1 {
@@ -82,7 +83,6 @@ picture {
 
   main {
     display: grid;
-
     grid-column-gap: 2vw;
   }
 
@@ -103,11 +103,11 @@ picture {
       padding-top: 2vh;
     }
   }
-}
+} 
 
 @media screen and (min-width: 64rem) {
   .fig-2 {
-    display: block;
+    display:block;
   }
 }
 
@@ -147,25 +147,26 @@ picture {
       display: grid;
       grid-template-areas: 
       'fig-1 aside aside aside' 
-      '. . title .'
+      '. . title title'
       'banner banner banner banner'
       '. main main main'
     }
     .fig-1 img{
-      width: 100px;
+      width: 90px;
       height: auto;
 
     }
     h1{
-      font-size: 40px;
-      text-align: center;
+      font-size: 35px;
+      /* display: inline; */
+      /* text-align: center; */
     }
     section p{
-      font-size: 14px;
+      font-size: 16px;
     }
     aside p{
-      font-size: 8px;
-      margin-left: 3rem;
+      font-size: 16px;
+      margin-left: 1rem;
 
     }
   }
