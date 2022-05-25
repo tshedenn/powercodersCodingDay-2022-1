@@ -1,6 +1,8 @@
-let getLastValue = (weekDays = ["Monday","Thursday","Saturday","Wednesday","Tuesday"]) =>{
+function getLastValue(){
+  let weekDays = ["Monday","Thursday","Saturday","Wednesday","Tuesday"];
   let sortedVal = weekDays.sort();
-  let output = sortedVal.slice(-1);
+  console.log(sortedVal);
+  let output = sortedVal.slice(sortedVal.length-1);
   console.log(output);
   // let weekDays = ["Monday","Thursday","Saturday","Wednesday","Tuesday"];
   //  let sortedVal= weekDays.sort();

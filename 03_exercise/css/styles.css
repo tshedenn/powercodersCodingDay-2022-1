@@ -30,6 +30,8 @@ p {
 html,body {
   margin: 0;
   padding: 0;
+
+  
 }
 
 body {
@@ -119,8 +121,8 @@ picture {
       padding-left: 0vw;
 
       grid-template-areas: '. aside . fig-2 fig-2' 'title title banner banner banner' 'fig-1 main banner banner banner';
-      grid-template-rows: repeat(3 , auto);
-      grid-template-columns: repeat(5 , 1fr);
+      /* grid-template-rows: repeat(3 , auto);
+      grid-template-columns: repeat(4, 1fr); */
     }
 
     section {
@@ -158,8 +160,7 @@ picture {
     }
     h1{
       font-size: 35px;
-      /* display: inline; */
-      /* text-align: center; */
+    
     }
     section p{
       font-size: 16px;
